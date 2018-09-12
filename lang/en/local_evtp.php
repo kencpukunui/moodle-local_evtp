@@ -1,0 +1,141 @@
+<?php
+/**
+ * EVTP Training Plans
+ *
+ * String definitions.
+ *
+ * @package    local_evtp
+ * @author     Shane Elliott (@link shane@pukunui.com)
+ * @copyright  2018 Pukunui (@link https://pukunui.com/)
+ * @license    https://www/gnu.org/copyleft/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['action'] = 'Action';
+$string['active'] = 'Active';
+$string['addednewplanstatus'] = 'New registrar plan status log successfully added';
+$string['addednewregistrarplan'] = 'New registrar training plan successfully added';
+$string['addnewstatus'] = 'Add new status';
+$string['addnewtrainingplan'] = 'Add new plan';
+$string['addelectiveitem'] = 'Add elective training item';
+$string['all'] = 'All';
+$string['choosedots'] = 'Choose ...';
+$string['cohorts'] = 'Cohorts';
+$string['comments'] = 'Comments';
+$string['completedate'] = 'Complete date';
+$string['compliant'] = 'Compliant';
+$string['confirmdeleteitem'] = 'Please confirm deletion of plan item: {$a}';
+$string['confirmdeleteregitem'] = 'Please confirm deletion of plan elective item: {$a}';
+$string['confirmdeleteplan'] = 'Please confirm deletion of plan: {$a}';
+$string['confirmdeleteplanstatuslog'] = 'Please confirm deletion of the status log from {$a}';
+$string['createnewtrainingplan'] = 'Create new registrar training plan';
+$string['deleteitem'] = 'Delete item';
+$string['deleteplan'] = 'Delete plan';
+$string['description'] = 'Description';
+$string['duplicateplan'] = 'Duplicate plan';
+$string['erroraddingnewplanstatus'] = 'There was a problem adding the new registrar plan status log';
+$string['erroraddingnewregistrarplan'] = 'There was a problem adding the new registrar training plan';
+$string['errorcompletiondatebeforestart'] = 'The completion date cannot be before the commencement date';
+$string['errormustselectame'] = 'An ME must be selected';
+$string['errormustselectaplan'] = 'A plan must be selected';
+$string['errormustselectaregistrar'] = 'A registrar must be selected';
+$string['errorplanmeregistrarcombination'] = 'The training plan, ME, registrar combination already exists';
+$string['existingtrainingplans'] = 'Existing plans';
+$string['inactive'] = 'Inactive';
+$string['invaliditemid'] = 'Invalid item id';
+$string['invalidplanid'] = 'Invalid registrar plan id';
+$string['itemaddedtoplan'] = 'Item added to registrar plan';
+$string['itemdeleted'] = 'Training item deleted';
+$string['itemmoveddown'] = 'Training item moved down successfully';
+$string['itemmovedup'] = 'Training item moved up successfully';
+$string['itemname'] = 'Item name';
+$string['itemnotaddedtoplan'] = 'There was a problem adding the item to the registrar plan';
+$string['itemnotdeleted'] = 'There was a problem deleting the training plan item';
+$string['itemnotmoveddown'] = 'There was a problem moving the item down';
+$string['itemnotmovedup'] = 'There was a problem moving the item up';
+$string['itemnotremovedfromplan'] = 'There was a problem removing the item from the plan';
+$string['itemremovedfromplan'] = 'Training item removed from plan';
+$string['itemupdated'] = 'Training plan item updated';
+$string['items'] = 'Items';
+$string['lastreviewcomments'] = 'Last review comments';
+$string['lastsubmittedforreview'] = 'Last submitted for review';
+$string['linetype'] = 'Line type';
+$string['me'] = 'M.E.';
+$string['mecomments'] = 'M.E. comments';
+$string['mes'] = 'M.E.s';
+$string['movedown'] = 'Move down';
+$string['moveup'] = 'Move up';
+$string['na'] = 'N/A';
+$string['neverreviewed'] = '(Never reviewed)';
+$string['newtrainingplanitem'] = 'Add new template plan item';
+$string['no'] = 'No';
+$string['nocomments'] = '(No comments available)';
+$string['noexistingtrainingitems'] = 'No existing items for this plan';
+$string['noexistingtrainingplans'] = 'No existing training plans';
+$string['noplansmatchingsearchcriteria'] = 'No plans available that match the given search criteria';
+$string['pathways'] = 'Pathways';
+$string['planadded'] = 'Plan added successfully';
+$string['plandeleted'] = 'Plan deleted';
+$string['planitemupdated'] = 'Plan item successfully updated';
+$string['planname'] = 'Plan Name';
+$string['plannedcommencementdate'] = 'Planned commencement date';
+$string['plannedcompletiondate'] = 'Planned completion date';
+$string['plannedplacement'] = 'Planned placement (or means of completion)';
+$string['plannotadded'] = 'There was a problem adding the plan';
+$string['plannotdeleted'] = 'There was a problem deleting the plan';
+$string['plannotupdated'] = 'There was a problem updating the plan';
+$string['planstatus'] = 'Plan status';
+$string['planupdated'] = 'Plan updated successfully';
+$string['pluginname'] = 'EVTP Training Plans';
+$string['evtp:manage'] = 'Manage Training Plans';
+$string['evtp:me'] = 'Medical Examiner';
+$string['evtp:view'] = 'Search and view training plans';
+$string['regions'] = 'Regions';
+$string['registrar'] = 'Registrar';
+$string['registrarcomments'] = 'Registrar comments';
+$string['registrars'] = 'Registrars';
+$string['save'] = 'Save';
+$string['search'] = 'Search';
+$string['sequence'] = 'Sequence';
+$string['startdate'] = 'Start date';
+$string['status'] = 'Status';
+$string['statusdate'] = 'Status date';
+$string['statusitemelective'] = 'Elective';
+$string['statusitemheader'] = 'Header';
+$string['statusitemmandatory'] = 'Mandatory';
+$string['statuslogremoved'] = 'Status log entry has been removed';
+$string['statusregitemcompleted'] = 'Completed';
+$string['statusregiteminprogress'] = 'In Progress';
+$string['statusregitemnotapplicable'] = 'Not Applicable';
+$string['statusregitemnotstarted'] = 'Not Started';
+$string['statusregplancompliant'] = 'Compliant';
+$string['statusregplaninprogress'] = 'In Progress';
+$string['statusregplannew'] = 'New';
+$string['statusregplannotcompliant'] = 'Not Compliant';
+$string['statusregplanrevision'] = 'Revision';
+$string['statusregplansubmitted'] = 'Submitted';
+$string['submittedforreview'] = 'Plan has been submitted for review';
+$string['submitplanforreview'] = 'Submit plan for review';
+$string['templateplanlist'] = 'Template Training Plans';
+$string['templateplans'] = 'Template Plans';
+$string['trainingitems'] = 'Training items';
+$string['traininglineitem'] = 'Training line item';
+$string['trainingplan'] = 'Training Plan';
+$string['trainingplans'] = 'Training Plans';
+$string['trainingplanlist'] = 'Training Plan List';
+$string['trainingplanedit'] = 'Edit Template Plan';
+$string['trainingplanitemedit'] = 'Edit training plan item';
+$string['trainingplanitem'] = 'Training Plan Item';
+$string['trainingplanitems'] = 'Template plan items';
+$string['trainingplansearch'] = 'Training Plan Search';
+$string['trainingplanstatus'] = 'Training Plan Status';
+$string['trainingplanview'] = 'Registrar Training Plan';
+$string['trainingplanviewfor'] = 'Registrar Training Plan: {$a->name} for {$a->registrar} (ME: {$a->me})';
+$string['type'] = 'Type';
+$string['update'] = 'Update';
+$string['updatetrainingplanstatus'] = 'Update training plan status';
+$string['unknownitemid'] = 'Unknown item id';
+$string['unknownplanid'] = 'Unknown plan id';
+$string['who'] = 'Who';
+$string['yes'] = 'Yes';
